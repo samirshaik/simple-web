@@ -31,7 +31,7 @@ This is a simple web project which could be used to to perform a quick tests on 
 
 ## Change log level that is not volatile
 - Start a container while standalone-openshift.xml is volume mapped to host drive
-- Update standalone.xml to change the log level as per preference
+- Update standalone-openshift.xml on the host drive to change the log level as per preference
 - Restart the container
 
 ## Few Docker commands
