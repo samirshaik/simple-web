@@ -19,7 +19,7 @@ This is a simple web project which could be used to to perform a quick tests on 
 - This servlet only logs DEBUG, INFO, WARN, ERROR and TRACE logs. After changing the log level you can view the application logs on the container to see if the log level has changed.
 	http://localhost:8080/simple-web/hello-world
 
-## Change log level while the container is actively running (volatile change - i.e. change would be lost when container restarted)
+## Change log level on running container (volatile change)
 - COMMAND: docker exec -it simple-web /bin/bash`
 - COMMAND: cd /opt/eap/bin
 - COMMAND: ./jboss-cli.sh
