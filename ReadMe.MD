@@ -20,14 +20,14 @@ This is a simple web project which could be used to to perform a quick tests on 
 	http://localhost:8080/simple-web/hello-world
 
 ## Change log level on running container (volatile change)
-- COMMAND: docker exec -it simple-web /bin/bash`
-- COMMAND: cd /opt/eap/bin
-- COMMAND: ./jboss-cli.sh
-- COMMAND: connect
-- COMMAND: /subsystem=logging/console-handler=CONSOLE/:write-attribute(name=level,value=DEBUG)
-- COMMAND: /subsystem=logging/root-logger=ROOT/:write-attribute(name=level,value=DEBUG)
+- COMMAND: `docker exec -it simple-web /bin/bash`
+- COMMAND: `cd /opt/eap/bin`
+- COMMAND: `./jboss-cli.sh`
+- COMMAND: `connect`
+- COMMAND: `/subsystem=logging/console-handler=CONSOLE/:write-attribute(name=level,value=DEBUG)`
+- COMMAND: `/subsystem=logging/root-logger=ROOT/:write-attribute(name=level,value=DEBUG)`
 - Invoke the application 
-- COMMAND: docker logs simple-web
+- COMMAND: `docker logs simple-web`
 
 ## Change log level that is not volatile
 - Start a container while standalone-openshift.xml is volume mapped to host drive
