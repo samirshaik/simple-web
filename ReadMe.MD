@@ -1,4 +1,4 @@
-# AUTHOR: SAMIR SHAIK : samir.shaik@zenmonics.com
+# AUTHOR: SAMIR SHAIK : shshaik@gmail.com
 
 # Simple Web
 This is a simple web project which could be used to to perform a quick tests on Docker containers.
